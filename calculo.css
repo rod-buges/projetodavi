@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    background-color: #eafae6; /* Verde claro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Garante 100% da altura da viewport */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff; /* Branco */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    max-width: 80px;
+    border-radius: 50%;
+  }
+  
+  h2 {
+    color: #005900; /* Verde escuro */
+  }
+  
+  button {
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    background-color: #005900; /* Verde escuro */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', 'Arial';
+    width: 100%; /* Ocupa 100% da largura do pai */
+    max-width: 400px; /* Limita a largura máxima para melhor legibilidade */
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(178, 218, 0);    
+  }
+  
+  button:hover {
+    background-color: #004c00; /* Verde mais escuro ao passar o mouse */
+  }
+  
+  h3 {
+    color: #005900; /* Verde escuro */
+  }
+  
+  .content-box {
+    text-align: center;
+    background-color: #096e25ce;
+    border-radius: 15px;
+    margin: 0 auto; /* Centraliza na horizontal */
+    width: 100%;
+    max-width: 200px; /* Limite de largura */
+    padding: 20px;
+    box-sizing: border-box;
+    height: 270px;
+  }
+  
+  .content-box img {
+    max-width: 80%; /* Imagem responsiva */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+  }
+  
+  .content-box p {
+    color: #555; /* Cor para o parágrafo */
+    margin-bottom: 10px;
+  }
+  
+  .content-box p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .number {
+    color: rgb(184, 209, 0);
+    margin-bottom: 20px;
+  }
+
+  .cal{
+    margin-top: -6px;
+    color: rgb(178, 218, 0);
+  }
+
+  .strong{
+    color: rgb(178, 218, 0);
+  }
+  
+  /* Media Query para telas menores que 600px (dispositivos móveis) */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    button {
+      width: 100%;
+      max-width: none; /* Remover a largura máxima para ocupar a largura total */
+    }
+  
+    .content-box {
+      padding: 10px;
+    }
+  }
